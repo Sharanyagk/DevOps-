@@ -1,7 +1,7 @@
-# Tracking Automation Effectiveness in DevOps
+# Tracking the Effectiveness of Automation in DevOps
 
 ## Overview
-This project automates the deployment and monitoring of a containerized application on **IBM Cloud Kubernetes Service (IKS)** while tracking the effectiveness of DevOps automation using **CI/CD, Prometheus, and Grafana**.
+This project focuses on automating the deployment and monitoring of a containerized application while tracking the effectiveness of DevOps automation. It leverages **CI/CD pipelines, Prometheus, and Grafana** to measure and visualize key metrics related to automation efficiency.
 
 ## Features
 ✅ **CI/CD Pipeline**: Automated deployment using GitHub Actions.  
@@ -29,8 +29,8 @@ This project automates the deployment and monitoring of a containerized applicat
 ## Installation & Setup
 
 ### 1️⃣ Prerequisites
-- **IBM Cloud Account**
-- **Kubernetes Cluster (IKS)**
+- **Cloud Account (e.g., IBM Cloud, AWS, GCP)**
+- **Kubernetes Cluster**
 - **Docker & kubectl installed**
 - **GitHub Actions setup**
 
@@ -98,15 +98,26 @@ This project includes a **GitHub Actions** workflow (`deploy.yml`) that automate
 
 ---
 
+## Metrics to Track Automation Effectiveness
+- **Build Time**: Time taken to build the Docker image.
+- **Deployment Time**: Time taken to deploy the application to Kubernetes.
+- **Application Performance**: CPU, memory usage, and request rates.
+- **Failure Rates**: Frequency of build or deployment failures.
+- **Recovery Time**: Time taken to recover from failures.
+
+---
+
 ## Future Enhancements
 🚀 **Auto-Rollbacks**: Implement rollback mechanisms on failure.  
 🚀 **Multi-Cloud Support**: Extend monitoring to AWS/GCP.  
 🚀 **Cost Optimization**: Analyze usage and optimize resource allocation.  
+🚀 **Alerting**: Set up alerts for critical metrics using Prometheus and Grafana.  
+🚀 **Historical Data Analysis**: Store and analyze historical data to identify trends and improve automation processes.  
 
 ---
 
 ## Contributors
-👤 **Sharanya_G_K**  
+👤 **Sharanya G K**  
 📧 Contact: your-sharanyagkmys@gmail.com  
 🔗 GitHub: [your-github-profile](https://github.com/Sharanyagk/DevOps-)
 
@@ -114,3 +125,7 @@ This project includes a **GitHub Actions** workflow (`deploy.yml`) that automate
 
 ## License
 MIT License © 2025
+
+---
+
+This project provides a comprehensive framework for tracking the effectiveness of automation in DevOps, enabling teams to measure and improve their CI/CD pipelines and deployment processes.
